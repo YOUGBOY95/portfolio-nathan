@@ -1,0 +1,62 @@
+@import "../../variables.modules";
+
+$transition: all 250ms ease;
+
+i {
+  padding-left: 0.5rem;
+
+  &.red {
+    color: $red;
+    animation: blinkRed 3s infinite forwards;
+  }
+
+  &.amber {
+    color: $yellow;
+    animation: blinkAmber 3s infinite forwards;
+  }
+
+  &.green {
+    color: $green;
+    animation: blinkGreen 3s infinite forwards;
+  }
+}
+
+.terminal {
+  p, li {
+    margin: 1rem 0;
+    color: $white;
+    
+  }
+}
+
+
+
+@keyframes blinkRed {
+  0%, 50% {
+    color: $red;
+  }
+
+  50%, 100% {
+    color: #1c1b1b; /* Couleur noire */
+  }
+}
+
+@keyframes blinkAmber {
+  0%, 49%, 50%, 99% {
+    color: $yellow;
+  }
+
+  51%, 99% {
+    color: #1c1b1b; /* Couleur noire */
+  }
+}
+
+@keyframes blinkGreen {
+  52%, 100% {
+    color: $green;
+  }
+
+  100% {
+    color: #1c1b1b; /* Couleur noire */
+  }
+}

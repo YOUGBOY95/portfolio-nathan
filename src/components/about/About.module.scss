@@ -1,0 +1,41 @@
+@import "../../variables.modules";
+
+.pink {
+color: $pink;
+}
+
+.green {
+color: $green;
+}
+
+.skills {
+columns: 1;
+@media only screen and (min-width: 940px) {
+columns: 2;
+}
+
+
+}
+
+.scroll-to-top-button {
+    position: fixed;
+    bottom: 20px; /* Ajustez cette valeur pour définir la distance du bouton par rapport au bas */
+    right: 20px; /* Ajustez cette valeur pour définir la distance du bouton par rapport à la droite */
+    z-index: 100;
+  }
+  
+  .scroll-to-top-button button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #93a5dc; /* Couleur de fond du bouton, remplacez-la par votre couleur préférée */
+    color: #ffffff; /* Couleur du texte du bouton, ajustez-la selon vos besoins */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
