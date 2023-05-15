@@ -62,10 +62,17 @@ export const info = {
         },
 
         {
-            link: "https://codepen.io/your-work/",
+            link: "https://codepen.io/YOUNGBOY95",
             icon: "fa fa-codepen",
             label: 'codepen'
         },
+
+        {
+            link: "https://stackoverflow.com/users/20169507/nathan",
+            icon: "fa fa-stack-overflow",
+            label: 'stack-overflow'
+        },
+
 
         {
             link: "https://www.linkedin.com/in/nathan-pinard-5627651b8/",
@@ -80,20 +87,20 @@ export const info = {
 
 
     ],
-    bio: "Bonjour ! Je suis Nathan Pinard. Je suis un développeur Front - End basé en région parisienne. J'ai toujours pris du plaisir à imaginer et à réaliser des choses de mes propres mains, et ce, de différentes manières, comme par exemple en dessinant ou en montant des vidéos.",
+    bio: "Bonjour ! Je suis Nathan Pinard. Je suis un développeur Front - End basé en région parisienne. J'ai toujours pris du plaisir à imaginer et à réaliser des choses de mes propres mains, et ce, de différentes manières.",
    // "S'efforcer de construire des choses qui font la différence !
     
     skills:
         {
             
-            proficientWith: ['HTML5 ', 'CSS3', 'GRAPHQL', 'JAVASCRIPT', 'TYPESCRIPT', 'PHP', 'REACT', 'NEXT.JS', 'NODE.JS','TAILWIND' ,'BOOSTRAP'],
+            proficientWith: ['HTML5 ', 'CSS3', 'SASS', 'GRAPHQL', 'JAVASCRIPT', 'TYPESCRIPT', 'PHP', 'REACT', 'NEXT.JS', 'NODE.JS','TAILWIND' ,'BOOSTRAP'],
             exposedTo: ['FIGMA', 'CANVA', 'ADOBE PHOTOSHOP', 'ADOBE PREMIÈRE PRO', 'ADOBE ILLUSTRATOR',]
         }
     ,
     hobbies: [
         {
             label: 'LES MANGAS',
-            emoji: '📖'
+            emoji: '📚'
         },
         {
             label: "L'ART",
@@ -120,6 +127,11 @@ export const info = {
         },
 
         {
+            label: "LE FOOTBALL AMÉRICAIN",
+            emoji: '🏈'
+        },
+
+        {
             label: "LA MUSCULATION",
             emoji: '🏆'
         },
@@ -127,6 +139,7 @@ export const info = {
             label: 'LE MONTAGE VIDÉO',
             emoji: '🎥'
         },
+        
         {
             label: 'LA MUSIQUE',
             emoji: '🎵'

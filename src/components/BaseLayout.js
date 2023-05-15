@@ -4,7 +4,6 @@ import Navbar from "./Navbar";
 import Home from "./home/Home";
 import About from "./about/About";
 import Portfolio from "./portfolio/Portfolio";
-import NotFound from './NotFound';
 import { Route, Routes, useLocation, useNavigate } from "react-router-dom";
 import { Box, Grid } from "@mui/material";
 
@@ -58,7 +57,6 @@ export default function BaseLayout() {
             <Route path="/" element={<Home />} />
             <Route path="/moi" element={<About />} />
             <Route path="/projets" element={<Portfolio />} />
-            <Route path="*" element={<NotFound />} />
           </Routes>
         </Grid>
         <Grid item>

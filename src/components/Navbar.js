@@ -3,7 +3,7 @@ import classNames from "classnames";
 import Style from "./Navbar.module.scss";
 import Toggler from "./home/Toggler";
 import { Box, Icon } from "@mui/material";
-import { Home, Person, Work, Description } from "@mui/icons-material";
+import { Home, AccountCircle, Work, Description, } from "@mui/icons-material";
 import { info } from "../info/Info";
 import { Link } from "react-router-dom";
 import {  pdfjs } from "react-pdf"; // importer un pdf et ainsi le DL
@@ -23,7 +23,7 @@ const links = [
     name: "Moi",
     to: "/moi",
     active: "Moi",
-    icon: <Person />,
+    icon: <AccountCircle />,
   },
   {
     name: "MON CV",
@@ -47,22 +47,32 @@ export default function Navbar({ darkMode, handleClick }) {
   );
 
   const [scrollPosition, setScrollPosition] = useState(0);
+  const [showNavbar, setShowNavbar] = useState(true);
 
   useEffect(() => {
     const handleScroll = () => {
       setScrollPosition(window.scrollY);
+
+      if (
+        window.location.pathname === "/" &&
+        window.scrollY > scrollPosition
+      ) {
+        setShowNavbar(false);
+      } else {
+        setShowNavbar(true);
+      }
     };
 
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [scrollPosition]);
 
   const handleCVDownload = () => {
     const link = document.createElement("a");
-    link.href = require("../img/cv_PINARD_NATHAN.pdf"); // Chemin local vers votre image CV
-    link.download = "CV_PINARD_NATHAN.pdf"; // Nom du fichier CV à télécharger
+    link.href = require("../img/cv_PINARD_NATHAN.pdf");
+    link.download = "CV_PINARD_NATHAN.pdf";
     link.click();
   };
 
@@ -70,10 +80,14 @@ export default function Navbar({ darkMode, handleClick }) {
     [Style.scrolled]: scrollPosition > window.innerHeight * 0.3,
     [Style.fixedNavbar]: scrollPosition > window.innerHeight * 0.3,
   });
-  
 
   return (
-    <Box component="nav" className={`${navbarClasses} ${Style.mobileNavbar}`} width="100%">
+    <Box
+      component="nav"
+      className={`${navbarClasses} ${Style.mobileNavbar}`}
+      width="100%"
+      style={{ display: showNavbar ? "block" : "none" }}
+    >
 
 <Box
   component={"ul"}
