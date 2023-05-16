@@ -20,9 +20,9 @@ const links = [
     icon: <Home />,
   },
   {
-    name: "Moi",
+    name: "Qui suis-je ?",
     to: "/moi",
-    active: "Moi",
+    active: "Qui suis-je ?",
     icon: <AccountCircle />,
   },
   {
@@ -52,10 +52,11 @@ export default function Navbar({ darkMode, handleClick }) {
   useEffect(() => {
     const handleScroll = () => {
       setScrollPosition(window.scrollY);
-
+  
       if (
         window.location.pathname === "/" &&
-        window.scrollY > scrollPosition
+        window.scrollY > window.innerHeight &&
+        showNavbar === true
       ) {
         setShowNavbar(false);
       } else {
@@ -67,7 +68,7 @@ export default function Navbar({ darkMode, handleClick }) {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [scrollPosition]);
+  }, [scrollPosition, showNavbar]);
 
   const handleCVDownload = () => {
     const link = document.createElement("a");
