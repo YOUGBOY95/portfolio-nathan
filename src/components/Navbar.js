@@ -114,7 +114,8 @@ export default function Navbar({ darkMode, handleClick }) {
     sx={{ borderImageSource: info.gradient }}
   >
     {link.name === "MON CV" ? (
-      <a href={link.download} onClick={handleCVDownload} className={Style.link}>
+      <a href={require("../img/cv_PINARD_NATHAN.pdf")} download="CV_PINARD_NATHAN.pdf" className={Style.link}>
+
         <div style={{ display: "flex", alignItems: "center" }}>
           <Icon className={Style.iconMargin}>{link.icon}</Icon>
           {!link.type && <p className={`${Style.name} ${Style.hideOnMobile}`}>{link.name}</p>}
