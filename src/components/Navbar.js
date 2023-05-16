@@ -32,7 +32,7 @@ const links = [
     icon: <Description />,
   },
   {
-    name: "Projets",
+    name: "Mes Projets",
     to: "/projets",
     active: "Projets",
     icon: <Work />,
