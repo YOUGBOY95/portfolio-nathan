@@ -6,6 +6,11 @@ import About from "./about/About";
 import Portfolio from "./portfolio/Portfolio";
 import { Route, Routes, useLocation, useNavigate } from "react-router-dom";
 import { Box, Grid } from "@mui/material";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import { FaStackOverflow } from 'react-icons/fa';
+import { FaCodepen} from 'react-icons/fa';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function BaseLayout() {
   const [darkMode, setDarkMode] = useState(false);
@@ -46,6 +51,9 @@ export default function BaseLayout() {
 
   const year = new Date().getFullYear();
 
+  
+  const isHomePage = location.pathname === "/";
+
   return (
     <Box className={darkMode ? Style.dark : Style.light}>
       <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'} justifyContent={'space-between'}>
@@ -61,8 +69,21 @@ export default function BaseLayout() {
         </Grid>
         <Grid item>
           <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'} py={'1.5rem'} sx={{ opacity: 0.7 }} width={'100%'}>
-            <p>SITE CRÉÉ  PAR <a href={'/'}>NATHAN PINARD</a></p>
+            <p>SITE CRÉÉ PAR <a href={'/'}>NATHAN PINARD</a></p>
             <p>&copy; {year}</p>
+
+            {!isHomePage && (
+              <div className={Style.socialMediaContainer}>
+                <div className={Style.socialMediaSeparator} />
+                
+                <a href="https://github.com/YOUGBOY95"><GitHubIcon className={Style.socialMediaIcon} /></a>
+                <a href="https://twitter.com/Kawwws_"><TwitterIcon className={Style.socialMediaIcon} /></a>
+                <a href="https://stackoverflow.com/users/20169507/nathan"><FaStackOverflow className={Style.socialMediaIcon} /></a>
+                <a href="https://codepen.io/YOUNGBOY95"><FaCodepen className={Style.socialMediaIcon} /></a>
+                <a href="https://www.linkedin.com/in/nathan-pinard-5627651b8/"><LinkedInIcon className={Style.socialMediaIcon} /></a>
+                <div className={Style.socialMediaSeparator} />
+              </div>
+            )}
           </Box>
         </Grid>
       </Grid>

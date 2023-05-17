@@ -25,6 +25,7 @@ footer {
 
   footer {
     color: $white;
+    
   }
 }
 
@@ -59,3 +60,22 @@ footer {
 
 
 
+
+.socialMediaContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.socialMediaSeparator {
+  flex-grow: 1;
+  height: 1px;
+ 
+  margin: 0 0.5rem;
+}
+
+.socialMediaIcon {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+ 
+}
