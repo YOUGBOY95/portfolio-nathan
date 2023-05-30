@@ -34,7 +34,7 @@ const links = [
   {
     name: "Mes Projets",
     to: "/projets",
-    active: "Projets",
+    active: "Mes Projets",
     icon: <Work />,
   },
 ];

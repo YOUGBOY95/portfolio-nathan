@@ -5,6 +5,7 @@ import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
+import mock6 from "../img/mock6.png"
 
 function callPhoneNumber() {
     window.open("tel:0783562292");
@@ -148,34 +149,41 @@ export const info = {
     ],
     portfolio: [ 
         {
-            title: "Space - Invaders",
+            title: "SPACE - INVADERS",
             live: "https://space-invaders-youngboy.netlify.app/",
             source: "https://github.com/YOUGBOY95/Space-invaders/tree/Pinard-Nathan/Space-invaders", 
             image: mock1
         },
         {
-            title: "Pokédex - App",
+            title: "POKÉDEX - APP",
             live: "https://pokedexxapp.netlify.app/",
             source: "https://github.com/YOUGBOY95/PokeApp",
             image: mock2
         },
         {
-            title: "Jeu de mémoire",
+            title: "JEU DE MÉMOIRE",
             live: "https://youngboy-game.netlify.app/",
             source: "https://github.com/YOUGBOY95/Jeu-de-m-moire",
             image: mock3
         },
         {
-            title: "Calculatrice",
+            title: "CALCULATRICE",
             live: "https://calculatricetest.netlify.app/",
             source: "https://github.com/YOUGBOY95/Calculatrice-React.JS",
             image: mock4
         },
         {
-            title: "Morpion",
+            title: "MORPION",
             live: "https://morpiongame.netlify.app/",
             source: "https://github.com/YOUGBOY95/Morpion",
             image: mock5
+        },
+
+        {
+            title: "ECOMAP",
+            live: "https://www.figma.com/proto/SELGWIlBrSMJ0Bqe02toWk/Eco---Map?type=design&node-id=281-4983&scaling=scale-down&page-id=89%3A1295&starting-point-node-id=250%3A3263",
+            source: "https://www.figma.com/file/SELGWIlBrSMJ0Bqe02toWk/Eco---Map?type=design&node-id=281%3A4983&t=OjyPlSWSUoLPxc2a-1",
+            image: mock6
         }
     ]
 }
