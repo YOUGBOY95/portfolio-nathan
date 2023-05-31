@@ -94,7 +94,7 @@ export const info = {
     skills:
         {
             
-            proficientWith: ['HTML5 ', 'CSS3', 'SASS', 'GRAPHQL', 'JAVASCRIPT', 'TYPESCRIPT', 'PHP', 'REACT', 'NEXT.JS', 'NODE.JS','TAILWIND' ,'BOOSTRAP'],
+            proficientWith: ['HTML5 ', 'CSS3', 'SASS', 'PHP', 'GRAPHQL', 'MYSQL', 'JAVASCRIPT', 'TYPESCRIPT', 'REACT', 'NEXT.JS', 'NODE.JS','TAILWIND' ,'BOOTSTRAP'],
             exposedTo: ['FIGMA', 'CANVA', 'ADOBE PHOTOSHOP', 'ADOBE PREMIÈRE PRO', 'ADOBE ILLUSTRATOR',]
         }
     ,
