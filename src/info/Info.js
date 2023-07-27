@@ -190,7 +190,7 @@ export const info = {
         {
             title: "SALINE ROYALE ACADEMY",
             live: "https://saline-royal.vercel.app/",
-            source: "https://github.com/YOUGBOY95/saline-royal",
+            source: "https://github.com/YOUGBOY95/saline-royale",
             image: mock7
         }
 
