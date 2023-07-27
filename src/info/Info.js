@@ -6,6 +6,7 @@ import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
 import mock6 from "../img/mock6.png"
+import mock7 from "../img/mock7.png"
 
 function callPhoneNumber() {
     window.open("tel:0783562292");
@@ -184,6 +185,14 @@ export const info = {
             live: "https://www.figma.com/proto/SELGWIlBrSMJ0Bqe02toWk/Eco---Map?type=design&node-id=281-4983&scaling=scale-down&page-id=89%3A1295&starting-point-node-id=250%3A3263",
             source: "https://www.figma.com/file/SELGWIlBrSMJ0Bqe02toWk/Eco---Map?type=design&node-id=281%3A4983&t=OjyPlSWSUoLPxc2a-1",
             image: mock6
+        },
+
+        {
+            title: "SALINE ROYALE ACADEMY",
+            live: "https://saline-royal.vercel.app/",
+            source: "https://github.com/YOUGBOY95/saline-royal",
+            image: mock7
         }
+
     ]
 }
