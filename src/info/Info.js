@@ -7,6 +7,7 @@ import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
 import mock6 from "../img/mock6.png"
 import mock7 from "../img/mock7.png"
+import { differenceInYears, parse } from 'date-fns';
 
 function callPhoneNumber() {
     window.open("tel:0783562292");
@@ -15,6 +16,10 @@ function callPhoneNumber() {
 
 //export let colors = ["rgb(204 204 255 )", "rgb(166,104,255)"];
 export let colors = ["rgb(178, 230, 255 )", "rgb(138,155,206)"];
+
+// Calculer l'âge dynamiquement en fonction de la date de naissance
+const dateDeNaissance = "2002-03-19"; // Remplacez "199X-XX-XX" par votre date de naissance réelle au format "AAAA-MM-JJ"
+const age = differenceInYears(new Date(), parse(dateDeNaissance, 'yyyy-MM-dd', new Date()));
 
 export const info = {
     firstName: "Nathan Pinard ",
@@ -27,7 +32,7 @@ export const info = {
     miniBio: [
         {
             emoji: '✨',
-            text: "J'ai 21 ans."
+            text: `J'ai ${age} ans.`,
         },
         {
             emoji: '🏠',
