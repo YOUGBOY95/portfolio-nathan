@@ -18,7 +18,7 @@ function callPhoneNumber() {
 export let colors = ["rgb(178, 230, 255 )", "rgb(138,155,206)"];
 
 // Calculer l'âge dynamiquement en fonction de la date de naissance
-const dateDeNaissance = "2002-03-19"; // Remplacez "199X-XX-XX" par votre date de naissance réelle au format "AAAA-MM-JJ"
+const dateDeNaissance = "2001-03-19"; // Remplacez "199X-XX-XX" par votre date de naissance réelle au format "AAAA-MM-JJ"
 const age = differenceInYears(new Date(), parse(dateDeNaissance, 'yyyy-MM-dd', new Date()));
 
 export const info = {
