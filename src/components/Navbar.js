@@ -70,12 +70,13 @@ export default function Navbar({ darkMode, handleClick }) {
     };
   }, [scrollPosition, showNavbar]);
 
-  const handleCVDownload = () => {
-    const link = document.createElement("a");
-    link.href = require("../img/cv_PINARD_NATHAN.pdf");
-    link.download = "CV_PINARD_NATHAN.pdf";
-    link.click();
-  };
+  // eslint-disable-next-line no-unused-vars
+const handleCVDownload = () => {
+  const link = document.createElement("a");
+  link.href = require("../img/cv_PINARD_NATHAN.pdf");
+  link.download = "CV_PINARD_NATHAN.pdf";
+  link.click();
+};
 
   const navbarClasses = classNames(Style.navbar, {
     [Style.scrolled]: scrollPosition > window.innerHeight * 0.3,
