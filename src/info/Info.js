@@ -7,6 +7,7 @@ import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
 import mock6 from "../img/mock6.png"
 import mock7 from "../img/mock7.png"
+import mock8 from "../img/mock8.png"
 import { differenceInYears, parse } from 'date-fns';
 
 function callPhoneNumber() {
@@ -100,7 +101,7 @@ export const info = {
     skills:
         {
             
-            proficientWith: ['HTML5 ', 'CSS3', 'SASS', 'PHP', 'GRAPHQL', 'MYSQL', 'JAVASCRIPT', 'TYPESCRIPT', 'REACT', 'NEXT.JS', 'NODE.JS','TAILWIND' ,'BOOTSTRAP'],
+            proficientWith: ['HTML5 ', 'CSS3', 'SASS', 'PHP', 'GRAPHQL', 'MYSQL', 'JAVASCRIPT', 'TYPESCRIPT', 'REACT','REACT-NATIVE', 'NEXT.JS', 'NODE.JS','TAILWIND' ,'BOOTSTRAP'],
             exposedTo: ['FIGMA', 'CANVA', 'ADOBE PHOTOSHOP', 'ADOBE PREMIÈRE PRO', 'ADOBE ILLUSTRATOR',]
         }
     ,
@@ -154,6 +155,28 @@ export const info = {
 
     ],
     portfolio: [ 
+
+        {
+            title: "URBAN LEAGUE GAME",
+            live: "https://www.urbanleaguegame.com/",
+            source: "https://github.com/YOUGBOY95/ULG",
+            image: mock8
+        },
+
+        {
+            title: "SALINE ROYALE ACADEMY",
+            live: "https://saline-royal.vercel.app/",
+            source: "https://github.com/YOUGBOY95/saline-royale",
+            image: mock7
+        },
+
+        {
+            title: "ECOMAP",
+            live: "https://www.figma.com/proto/SELGWIlBrSMJ0Bqe02toWk/Eco---Map?type=design&node-id=281-4983&scaling=scale-down&page-id=89%3A1295&starting-point-node-id=250%3A3263",
+            source: "https://www.figma.com/file/SELGWIlBrSMJ0Bqe02toWk/Eco---Map?type=design&node-id=281%3A4983&t=OjyPlSWSUoLPxc2a-1",
+            image: mock6
+        },
+
         {
             title: "SPACE - INVADERS",
             live: "https://space-invaders-youngboy.netlify.app/",
@@ -183,20 +206,6 @@ export const info = {
             live: "https://morpiongame.netlify.app/",
             source: "https://github.com/YOUGBOY95/Morpion",
             image: mock5
-        },
-
-        {
-            title: "ECOMAP",
-            live: "https://www.figma.com/proto/SELGWIlBrSMJ0Bqe02toWk/Eco---Map?type=design&node-id=281-4983&scaling=scale-down&page-id=89%3A1295&starting-point-node-id=250%3A3263",
-            source: "https://www.figma.com/file/SELGWIlBrSMJ0Bqe02toWk/Eco---Map?type=design&node-id=281%3A4983&t=OjyPlSWSUoLPxc2a-1",
-            image: mock6
-        },
-
-        {
-            title: "SALINE ROYALE ACADEMY",
-            live: "https://saline-royal.vercel.app/",
-            source: "https://github.com/YOUGBOY95/saline-royale",
-            image: mock7
         }
 
     ]
