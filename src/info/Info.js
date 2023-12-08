@@ -8,6 +8,7 @@ import mock5 from "../img/mock5.png"
 import mock6 from "../img/mock6.png"
 import mock7 from "../img/mock7.png"
 import mock8 from "../img/mock8.png"
+import mock9 from "../img/mock9.png"
 import { differenceInYears, parse } from 'date-fns';
 
 function callPhoneNumber() {
@@ -155,6 +156,14 @@ export const info = {
 
     ],
     portfolio: [ 
+
+
+        {
+            title: "SECRET-TIME",
+            live: "https://secret-time.vercel.app/",
+            source: "https://github.com/YOUGBOY95/SECRET-TIME",
+            image: mock9
+        },
 
         {
             title: "URBAN LEAGUE GAME",

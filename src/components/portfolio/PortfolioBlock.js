@@ -11,7 +11,7 @@ function PortfolioBlock(props) {
          <Box className={'portfolio'} display={'flex'} flexDirection={'column'} gap={'0.5rem'}
               alignItems={'center'} fontSize={'1.5rem'} py={'2rem'}>
             <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
-               <IconLink link={live} title={'- Voir la démo'} icon={'fa fa-search'}/>
+               <IconLink link={live} title={'- Voir le projet'} icon={'fa fa-search'}/>
             </Box>
             <br></br>
             <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
