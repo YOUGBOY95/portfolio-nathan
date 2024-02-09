@@ -75,6 +75,8 @@ export const info = {
             icon: "fa fa-codepen",
             label: 'codepen'
         },
+        
+       
 
         {
             link: "https://stackoverflow.com/users/20169507/nathan",
@@ -88,13 +90,8 @@ export const info = {
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
-        {
-            link: "https://twitter.com/Kawwws_",
-            icon: "fa fa-twitter",
-            label: 'twitter'
-        }
-
-
+        
+       
     ],
     bio: "Bonjour ! Je suis Nathan Pinard. Je suis un développeur Front - End basé en région parisienne. J'ai toujours pris du plaisir à imaginer et à réaliser des choses de mes propres mains, et ce, de différentes manières.",
    // "S'efforcer de construire des choses qui font la différence !
