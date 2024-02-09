@@ -102,7 +102,7 @@ export const info = {
     skills:
         {
             
-            proficientWith: ['HTML5 ', 'CSS3', 'SASS', 'PHP', 'GRAPHQL', 'MYSQL', 'JAVASCRIPT', 'TYPESCRIPT', 'REACT','REACT-NATIVE', 'NEXT.JS', 'NODE.JS','TAILWIND' ,'BOOTSTRAP'],
+            proficientWith: ['HTML5 ', 'CSS3', 'SASS', 'GO', 'GRAPHQL', 'MYSQL', 'JAVASCRIPT', 'TYPESCRIPT', 'REACT','REACT-NATIVE', 'NEXT.JS', 'NODE.JS','TAILWIND' ,'BOOTSTRAP'],
             exposedTo: ['FIGMA', 'CANVA', 'ADOBE PHOTOSHOP', 'ADOBE PREMIÈRE PRO', 'ADOBE ILLUSTRATOR',]
         }
     ,
