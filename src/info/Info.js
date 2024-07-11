@@ -167,7 +167,7 @@ export const info = {
             title: "MÉDIAMÉTRIE",
             live: "https://www.mediametrie.fr/fr",
             source: "https://www.mediametrie.fr/fr",
-            image: mock15
+            image: mock14
         },
 
         {
