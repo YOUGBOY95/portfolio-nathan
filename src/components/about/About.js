@@ -82,10 +82,34 @@ export default function About() {
           </span>{' '}
           ls
         </p>
-        <p style={{ color: info.baseColor }}> LANGAGES | FRAMEWORKS</p>
+        <p style={{ color: info.baseColor }}> FRONT - END</p>
         <ul className={Style.skills}>
           {info.skills.proficientWith.map((proficiency, index) => (
             <li key={index}>{proficiency}</li>
+          ))}
+        </ul>
+        <p style={{ color: info.baseColor }}> BACK - END</p>
+        <ul className={Style.skills}>
+          {info.skills.proficientWith2.map((proficiency, index) => (
+            <li key={index}>{proficiency}</li>
+          ))}
+        </ul>
+        <p style={{ color: info.baseColor }}> MOBILE</p>
+        <ul className={Style.skills}>
+          {info.skills.proficientWith5.map((proficiency, index) => (
+            <li key={index}>{proficiency}</li>
+          ))}
+        </ul>
+        <p style={{ color: info.baseColor }}> FRAMEWORKS | BIBLIOTHÈQUES</p>
+        <ul className={Style.skills}>
+          {info.skills.proficientWith3.map((proficiency, index) => (
+            <li key={index}>{proficiency}</li>
+          ))}
+        </ul>
+        <p style={{ color: info.baseColor }}> TOOLS</p>
+        <ul className={Style.skills}>
+          {info.skills.proficientWith4.map((skill, index) => (
+            <li key={index}>{skill}</li>
           ))}
         </ul>
         <p style={{ color: info.baseColor }}> DESIGN</p>

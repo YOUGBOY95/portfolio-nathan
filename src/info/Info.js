@@ -93,14 +93,18 @@ export const info = {
         
        
     ],
-    bio: "Bonjour ! Je suis Nathan Pinard. Je suis un développeur Front - End basé en région parisienne. J'ai toujours pris du plaisir à imaginer et à réaliser des choses de mes propres mains, et ce, de différentes manières.",
+    bio: "Bonjour ! Je suis Nathan PINARD, un développeur Front-End  basé en région parisienne. Ma créativité s'exprime à travers la conception et la réalisation de projets web captivants. Toujours avide de défis techniques, j'aime explorer de nouvelles façons d'innover et de perfectionner mes compétences.",
    // "S'efforcer de construire des choses qui font la différence !
     
     skills:
         {
             
-            proficientWith: ['HTML5 ', 'CSS3', 'SASS', 'GO', 'GRAPHQL', 'MYSQL', 'JAVASCRIPT', 'TYPESCRIPT', 'REACT','REACT-NATIVE', 'NEXT.JS', 'NODE.JS','TAILWIND' ,'BOOTSTRAP'],
-            exposedTo: ['FIGMA', 'CANVA', 'ADOBE PHOTOSHOP', 'ADOBE PREMIÈRE PRO', 'ADOBE ILLUSTRATOR',]
+            proficientWith: ['HTML5 ', 'CSS3', 'SASS', 'JAVASCRIPT', 'TYPESCRIPT'],
+            proficientWith2: ['GO','GRAPHQL','MYSQL','NODE.JS','PYTHON','C#'],
+            proficientWith3: ['REACT.JS','NEXT.JS','TAILWIND','BOOTSTRAP'],
+            proficientWith4: ['GIT','GITHUB','GITLAB','DOCKER','JIRA','SLACK','NOTION','JENKINS'],
+            proficientWith5: ['REACT NATIVE','EXPO'],
+            exposedTo: ['FIGMA', 'CANVA', 'ADOBE PHOTOSHOP', 'ADOBE ILLUSTRATOR',]
         }
     ,
     hobbies: [
