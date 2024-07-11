@@ -12,6 +12,7 @@ import mock9 from "../img/mock9.png"
 import mock10 from "../img/mock10.png"
 import mock11 from "../img/mock11.png"
 import mock12 from "../img/mock12.png"
+import mock13 from "../img/mock13.png"
 import { differenceInYears, parse } from 'date-fns';
 
 function callPhoneNumber() {
@@ -175,6 +176,13 @@ export const info = {
             live: "https://gitlab.com/YOUGBOY95/shopzilla",
             source: "https://gitlab.com/YOUGBOY95/shopzilla",
             image: mock10
+        },
+
+        {
+            title: "SMILE-IA",
+            live: "https://snack.expo.dev/@youngboy95/projet-react-native-v1",
+            source: "https://github.com/YOUGBOY95/Smile-IA",
+            image: mock13
         },
 
         {
