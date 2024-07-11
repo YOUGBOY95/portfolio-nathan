@@ -11,6 +11,7 @@ import mock8 from "../img/mock8.png"
 import mock9 from "../img/mock9.png"
 import mock10 from "../img/mock10.png"
 import mock11 from "../img/mock11.png"
+import mock12 from "../img/mock12.png"
 import { differenceInYears, parse } from 'date-fns';
 
 function callPhoneNumber() {
@@ -167,11 +168,20 @@ export const info = {
             image: mock11
         },
 
+        
+
         {
             title: "SHOPZILLA",
             live: "https://gitlab.com/YOUGBOY95/shopzilla",
             source: "https://gitlab.com/YOUGBOY95/shopzilla",
             image: mock10
+        },
+
+        {
+            title: "HAIRSWIFT",
+            live: "https://github.com/N95Ryan/HairSwift",
+            source: "https://github.com/N95Ryan/HairSwift",
+            image: mock12
         },
         
 
