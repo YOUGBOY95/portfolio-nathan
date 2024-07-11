@@ -9,6 +9,8 @@ import mock6 from "../img/mock6.png"
 import mock7 from "../img/mock7.png"
 import mock8 from "../img/mock8.png"
 import mock9 from "../img/mock9.png"
+import mock10 from "../img/mock10.png"
+import mock11 from "../img/mock11.png"
 import { differenceInYears, parse } from 'date-fns';
 
 function callPhoneNumber() {
@@ -158,6 +160,20 @@ export const info = {
     ],
     portfolio: [ 
 
+        {
+            title: "POKÉMAP",
+            live: "https://pokemap-six.vercel.app/",
+            source: "https://github.com/YOUGBOY95/POKEMAP",
+            image: mock11
+        },
+
+        {
+            title: "SHOPZILLA",
+            live: "https://gitlab.com/YOUGBOY95/shopzilla",
+            source: "https://gitlab.com/YOUGBOY95/shopzilla",
+            image: mock10
+        },
+        
 
         {
             title: "SECRET-TIME",
